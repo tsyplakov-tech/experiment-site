@@ -19,7 +19,7 @@ jobs:
     runs-on: [self-hosted, linux, x64]
     timeout-minutes: 20
     env:
-      SITE_PORT: ${{ vars.APP_PORT || '8080' }}
+      APP_PORT: ${{ vars.APP_PORT || '8080' }}
     steps:
       - uses: actions/checkout@v4
       - name: Check Docker Compose
