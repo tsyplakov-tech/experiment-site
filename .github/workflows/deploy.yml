@@ -1,7 +1,7 @@
-name: Build and deploy
+
+name: Deploy
 
 on:
-  pull_request:
   push:
     branches: [master]
   workflow_dispatch:
@@ -10,39 +10,26 @@ permissions:
   contents: read
 
 concurrency:
-  group: edutasks-${{ github.ref }}
+  group: deploy-production
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
-    runs-on: self-hosted
-    timeout-minutes: 15
+  deploy:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: [self-hosted, linux, x64]
+    timeout-minutes: 20
+    env:
+      SITE_PORT: ${{ vars.APP_PORT || '8080' }}
     steps:
       - uses: actions/checkout@v4
-
-      - name: Build image
-        run: docker build -t "edutasks:$GITHUB_SHA" .
-
-      - name: Deploy over SSH
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
-        shell: bash
-        env:
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-          SSH_USER: ${{ secrets.SSH_USER }}
-          SSH_PORT: ${{ secrets.SSH_PORT || '22' }}
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          APP_PORT: ${{ vars.APP_PORT || '3000' }}
+      - name: Check Docker Compose
+        run: docker compose version
+      - name: Build site
+        run: docker compose -p experiment-site build --pull
+      - name: Deploy site
+        run: docker compose -p experiment-site up -d --wait --wait-timeout 90 --remove-orphans
+      - name: Show deployment status
+        if: always()
         run: |
-          set -euo pipefail
-          : "${SSH_HOST:?Set SSH_HOST secret}"
-          : "${SSH_USER:?Set SSH_USER secret}"
-          : "${SSH_PRIVATE_KEY:?Set SSH_PRIVATE_KEY secret}"
-          [[ "$APP_PORT" =~ ^[0-9]+$ ]] && (( APP_PORT >= 1 && APP_PORT <= 65535 ))
-          [[ "$SSH_PORT" =~ ^[0-9]+$ ]]
-          install -m 700 -d ~/.ssh
-          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          trap 'rm -f ~/.ssh/deploy_key' EXIT
-          ssh_options=(-i ~/.ssh/deploy_key -p "$SSH_PORT" -o IdentitiesOnly=yes -o PreferredAuthentications=publickey -o PasswordAuthentication=no -o KbdInteractiveAuthentication=no -o BatchMode=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null -o ConnectTimeout=15)
-          docker save "edutasks:$GITHUB_SHA" | gzip | ssh "${ssh_options[@]}" "$SSH_USER@$SSH_HOST" 'gzip -dc | docker load'
-          ssh "${ssh_options[@]}" "$SSH_USER@$SSH_HOST" "bash -s -- 'edutasks:$GITHUB_SHA' '$APP_PORT'" < scripts/deploy.sh
+          docker compose -p experiment-site ps
+          docker compose -p experiment-site logs --tail=100
