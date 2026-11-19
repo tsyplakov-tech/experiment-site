@@ -8,7 +8,7 @@ COPY pyproject.toml uv.lock README.md ./
 RUN uv sync --frozen --no-dev --no-install-project
 COPY mkdocs.yml ./
 COPY docs ./docs
-RUN uv run --no-sync mkdocs build --strict
+RUN uv run --no-sync zensical build --strict
 
 FROM nginx:stable-alpine
 COPY --from=builder /app/site /usr/share/nginx/html
