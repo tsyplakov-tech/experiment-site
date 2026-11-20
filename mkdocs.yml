@@ -1,3 +1,15 @@
 site_name: Станислав Цыплаков
+repo_url: https://github.com/tsyplakov-tech/experiment-site
+repo_name: tsyplakov-tech/experiment-site
 theme:
   name: material
+  locale: ru
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny

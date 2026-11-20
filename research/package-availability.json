@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-11-20T16:47:48.816822+00:00",
+  "packages": {
+    "mkdocs": {
+      "pypi": {
+        "url": "https://pypi.org/pypi/mkdocs/json",
+        "status": 200,
+        "version": "1.6.1",
+        "release_dates": [
+          "2024-08-30T12:24:05.054260Z",
+          "2024-08-30T12:24:06.899675Z"
+        ]
+      },
+      "mirror": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/mkdocs/",
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      }
+    },
+    "mkdocs-material": {
+      "pypi": {
+        "url": "https://pypi.org/pypi/mkdocs-material/json",
+        "status": 200,
+        "version": "9.8.2",
+        "release_dates": [
+          "2026-11-19T19:52:22.436632Z",
+          "2026-11-19T19:52:25.799408Z"
+        ]
+      },
+      "mirror": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/mkdocs-material/",
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      }
+    },
+    "sphinx": {
+      "pypi": {
+        "url": "https://pypi.org/pypi/sphinx/json",
+        "status": 200,
+        "version": "9.2.0",
+        "release_dates": [
+          "2026-10-21T00:05:12.241734Z",
+          "2026-10-21T00:05:15.019079Z"
+        ]
+      },
+      "mirror": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/sphinx/",
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      }
+    },
+    "myst-parser": {
+      "pypi": {
+        "url": "https://pypi.org/pypi/myst-parser/json",
+        "status": 200,
+        "version": "5.2.0",
+        "release_dates": [
+          "2026-11-10T19:52:27.823398Z",
+          "2026-11-10T19:52:29.176640Z"
+        ]
+      },
+      "mirror": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/myst-parser/",
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      }
+    },
+    "pelican": {
+      "pypi": {
+        "url": "https://pypi.org/pypi/pelican/json",
+        "status": 200,
+        "version": "4.12.0",
+        "release_dates": [
+          "2026-04-20T15:30:15.383105Z",
+          "2026-04-20T15:30:17.322345Z"
+        ]
+      },
+      "mirror": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/pelican/",
+        "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      }
+    }
+  }
+}

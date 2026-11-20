@@ -1,0 +1,12 @@
+project='Научный стресс-тест'
+extensions=['myst_parser','sphinx.ext.mathjax','sphinx_design','sphinxcontrib.bibtex']
+language='ru'
+html_theme='alabaster'
+html_static_path=['_static']
+html_css_files=['experiment.css']
+html_js_files=[]
+mathjax_path='mathjax/tex-mml-chtml.js'
+bibtex_bibfiles=['references.bib']
+bibtex_default_style='plain'
+numfig=True
+exclude_patterns=[]

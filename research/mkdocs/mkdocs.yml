@@ -1,0 +1,17 @@
+site_name: Научный стресс-тест
+docs_dir: docs
+site_dir: ../../research/output/mkdocs
+theme:
+  name: material
+  language: ru
+  font: false
+plugins:
+  - search:
+      lang: [ru]
+markdown_extensions:
+  - footnotes
+  - md_in_html
+extra_css: [assets/experiment.css]
+extra_javascript:
+  - assets/math-config.js
+  - assets/mathjax/tex-mml-chtml.js

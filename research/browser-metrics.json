@@ -1,0 +1,609 @@
+{
+  "mkdocs": {
+    "desktop": {
+      "checks": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "math": 2,
+        "mathErrors": [],
+        "plot": true,
+        "rowspan": true,
+        "colspan": true,
+        "columns": "329px 329px",
+        "footnotes": true,
+        "brokenImages": []
+      },
+      "requests": 17,
+      "external_requests": 0,
+      "resource_bytes": 6412708,
+      "responses": [
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/index.html",
+          "status": 200,
+          "bytes": 23330
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/stylesheets/main.57a0d79d.min.css",
+          "status": 200,
+          "bytes": 137572
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/experiment.css",
+          "status": 200,
+          "bytes": 5386
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/static.png",
+          "status": 200,
+          "bytes": 20639
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/math-config.js",
+          "status": 200,
+          "bytes": 61
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/javascripts/bundle.a5f9d56c.min.js",
+          "status": 200,
+          "bytes": 114081
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/mathjax/tex-mml-chtml.js",
+          "status": 200,
+          "bytes": 1173007
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/plotly.min.js",
+          "status": 200,
+          "bytes": 4819433
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/search/search_index.json",
+          "status": 200,
+          "bytes": 3485
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+          "status": 200,
+          "bytes": 1368
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff",
+          "status": 200,
+          "bytes": 34160
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+          "status": 200,
+          "bytes": 5464
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff",
+          "status": 200,
+          "bytes": 19360
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/images/favicon.png",
+          "status": 200,
+          "bytes": 1870
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/javascripts/workers/search.a7633da7.min.js",
+          "status": 200,
+          "bytes": 39514
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/javascripts/lunr/min/lunr.stemmer.support.min.js",
+          "status": 200,
+          "bytes": 3647
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/javascripts/lunr/min/lunr.ru.min.js",
+          "status": 200,
+          "bytes": 10331
+        }
+      ],
+      "errors": []
+    },
+    "mobile": {
+      "checks": {
+        "width": 390,
+        "documentWidth": 390,
+        "math": 2,
+        "mathErrors": [],
+        "plot": true,
+        "rowspan": true,
+        "colspan": true,
+        "columns": "358px",
+        "footnotes": true,
+        "brokenImages": []
+      },
+      "requests": 17,
+      "external_requests": 0,
+      "resource_bytes": 6412708,
+      "responses": [
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/index.html",
+          "status": 200,
+          "bytes": 23330
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/stylesheets/main.57a0d79d.min.css",
+          "status": 200,
+          "bytes": 137572
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/experiment.css",
+          "status": 200,
+          "bytes": 5386
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/static.png",
+          "status": 200,
+          "bytes": 20639
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/math-config.js",
+          "status": 200,
+          "bytes": 61
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/javascripts/bundle.a5f9d56c.min.js",
+          "status": 200,
+          "bytes": 114081
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/mathjax/tex-mml-chtml.js",
+          "status": 200,
+          "bytes": 1173007
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/plotly.min.js",
+          "status": 200,
+          "bytes": 4819433
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/javascripts/workers/search.a7633da7.min.js",
+          "status": 200,
+          "bytes": 39514
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+          "status": 200,
+          "bytes": 1368
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/search/search_index.json",
+          "status": 200,
+          "bytes": 3485
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/images/favicon.png",
+          "status": 200,
+          "bytes": 1870
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff",
+          "status": 200,
+          "bytes": 34160
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff",
+          "status": 200,
+          "bytes": 19360
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+          "status": 200,
+          "bytes": 5464
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/javascripts/lunr/min/lunr.stemmer.support.min.js",
+          "status": 200,
+          "bytes": 3647
+        },
+        {
+          "url": "http://127.0.0.1:8765/mkdocs/assets/javascripts/lunr/min/lunr.ru.min.js",
+          "status": 200,
+          "bytes": 10331
+        }
+      ],
+      "errors": []
+    },
+    "lighthouse": {
+      "performance": 0.66,
+      "accessibility": 0.9,
+      "best-practices": 1,
+      "seo": 0.91,
+      "agentic-browsing": 0.5
+    }
+  },
+  "sphinx": {
+    "desktop": {
+      "checks": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "math": 1,
+        "mathErrors": [],
+        "plot": true,
+        "rowspan": true,
+        "colspan": true,
+        "columns": "318px 318px",
+        "footnotes": true,
+        "brokenImages": []
+      },
+      "requests": 19,
+      "external_requests": 0,
+      "resource_bytes": 6207728,
+      "responses": [
+        {
+          "url": "http://127.0.0.1:8765/sphinx/index.html",
+          "status": 200,
+          "bytes": 15461
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/pygments.css?v=5ecbeea2",
+          "status": 200,
+          "bytes": 5346
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/alabaster.css?v=27fed22d",
+          "status": 200,
+          "bytes": 11438
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/basic.css?v=b08954a9",
+          "status": 200,
+          "bytes": 15592
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/sphinx-design.min.css?v=6a604523",
+          "status": 200,
+          "bytes": 54807
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/documentation_options.js?v=372fde1a",
+          "status": 200,
+          "bytes": 335
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/custom.css",
+          "status": 200,
+          "bytes": 42
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/experiment.css?v=a6580305",
+          "status": 200,
+          "bytes": 5386
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/sphinx_highlight.js?v=6ffebe34",
+          "status": 200,
+          "bytes": 5325
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/doctools.js?v=fd6eb6e6",
+          "status": 200,
+          "bytes": 4332
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/design-tabs.js?v=fcb327ea",
+          "status": 200,
+          "bytes": 7464
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/translations.js?v=cd1d70c9",
+          "status": 200,
+          "bytes": 8769
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/static.png",
+          "status": 200,
+          "bytes": 20639
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/mathjax/tex-mml-chtml.js?v=cadf963e",
+          "status": 200,
+          "bytes": 1173007
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/plotly.min.js",
+          "status": 200,
+          "bytes": 4819433
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+          "status": 200,
+          "bytes": 1368
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff",
+          "status": 200,
+          "bytes": 19360
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff",
+          "status": 200,
+          "bytes": 34160
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+          "status": 200,
+          "bytes": 5464
+        }
+      ],
+      "errors": []
+    },
+    "mobile": {
+      "checks": {
+        "width": 390,
+        "documentWidth": 390,
+        "math": 1,
+        "mathErrors": [],
+        "plot": true,
+        "rowspan": true,
+        "colspan": true,
+        "columns": "330px",
+        "footnotes": true,
+        "brokenImages": []
+      },
+      "requests": 19,
+      "external_requests": 0,
+      "resource_bytes": 6207728,
+      "responses": [
+        {
+          "url": "http://127.0.0.1:8765/sphinx/index.html",
+          "status": 200,
+          "bytes": 15461
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/pygments.css?v=5ecbeea2",
+          "status": 200,
+          "bytes": 5346
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/basic.css?v=b08954a9",
+          "status": 200,
+          "bytes": 15592
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/alabaster.css?v=27fed22d",
+          "status": 200,
+          "bytes": 11438
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/sphinx-design.min.css?v=6a604523",
+          "status": 200,
+          "bytes": 54807
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/experiment.css?v=a6580305",
+          "status": 200,
+          "bytes": 5386
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/custom.css",
+          "status": 200,
+          "bytes": 42
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/static.png",
+          "status": 200,
+          "bytes": 20639
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/documentation_options.js?v=372fde1a",
+          "status": 200,
+          "bytes": 335
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/translations.js?v=cd1d70c9",
+          "status": 200,
+          "bytes": 8769
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/doctools.js?v=fd6eb6e6",
+          "status": 200,
+          "bytes": 4332
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/sphinx_highlight.js?v=6ffebe34",
+          "status": 200,
+          "bytes": 5325
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/design-tabs.js?v=fcb327ea",
+          "status": 200,
+          "bytes": 7464
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/mathjax/tex-mml-chtml.js?v=cadf963e",
+          "status": 200,
+          "bytes": 1173007
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/plotly.min.js",
+          "status": 200,
+          "bytes": 4819433
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+          "status": 200,
+          "bytes": 1368
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff",
+          "status": 200,
+          "bytes": 34160
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff",
+          "status": 200,
+          "bytes": 19360
+        },
+        {
+          "url": "http://127.0.0.1:8765/sphinx/_static/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+          "status": 200,
+          "bytes": 5464
+        }
+      ],
+      "errors": []
+    },
+    "lighthouse": {
+      "performance": 0.63,
+      "accessibility": 0.93,
+      "best-practices": 0.96,
+      "seo": 0.91,
+      "agentic-browsing": 0.5
+    }
+  },
+  "pelican": {
+    "desktop": {
+      "checks": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "math": 2,
+        "mathErrors": [],
+        "plot": true,
+        "rowspan": true,
+        "colspan": true,
+        "columns": "488px 488px",
+        "footnotes": true,
+        "brokenImages": []
+      },
+      "requests": 10,
+      "external_requests": 0,
+      "resource_bytes": 6090265,
+      "responses": [
+        {
+          "url": "http://127.0.0.1:8765/pelican/index.html",
+          "status": 200,
+          "bytes": 11387
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/experiment.css",
+          "status": 200,
+          "bytes": 5386
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/math-config.js",
+          "status": 200,
+          "bytes": 61
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/static.png",
+          "status": 200,
+          "bytes": 20639
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/mathjax/tex-mml-chtml.js",
+          "status": 200,
+          "bytes": 1173007
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/plotly.min.js",
+          "status": 200,
+          "bytes": 4819433
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+          "status": 200,
+          "bytes": 1368
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+          "status": 200,
+          "bytes": 5464
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff",
+          "status": 200,
+          "bytes": 34160
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff",
+          "status": 200,
+          "bytes": 19360
+        }
+      ],
+      "errors": []
+    },
+    "mobile": {
+      "checks": {
+        "width": 390,
+        "documentWidth": 390,
+        "math": 2,
+        "mathErrors": [],
+        "plot": true,
+        "rowspan": true,
+        "colspan": true,
+        "columns": "342px",
+        "footnotes": true,
+        "brokenImages": []
+      },
+      "requests": 10,
+      "external_requests": 0,
+      "resource_bytes": 6090265,
+      "responses": [
+        {
+          "url": "http://127.0.0.1:8765/pelican/index.html",
+          "status": 200,
+          "bytes": 11387
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/experiment.css",
+          "status": 200,
+          "bytes": 5386
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/static.png",
+          "status": 200,
+          "bytes": 20639
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/math-config.js",
+          "status": 200,
+          "bytes": 61
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/mathjax/tex-mml-chtml.js",
+          "status": 200,
+          "bytes": 1173007
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/plotly.min.js",
+          "status": 200,
+          "bytes": 4819433
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+          "status": 200,
+          "bytes": 1368
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff",
+          "status": 200,
+          "bytes": 19360
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff",
+          "status": 200,
+          "bytes": 34160
+        },
+        {
+          "url": "http://127.0.0.1:8765/pelican/assets/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+          "status": 200,
+          "bytes": 5464
+        }
+      ],
+      "errors": []
+    },
+    "lighthouse": {
+      "performance": 0.7,
+      "accessibility": 0.96,
+      "best-practices": 0.96,
+      "seo": 0.91,
+      "agentic-browsing": 0.5
+    }
+  }
+}

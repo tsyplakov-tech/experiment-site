@@ -1,0 +1,17 @@
+AUTHOR='Исследователь'
+SITENAME='Научный стресс-тест'
+SITEURL=''
+TIMEZONE='Europe/Moscow'
+DEFAULT_LANG='ru'
+PATH='content'
+THEME='theme'
+STATIC_PATHS=['assets']
+ARTICLE_URL='index.html'
+ARTICLE_SAVE_AS='index.html'
+INDEX_SAVE_AS='listing.html'
+FEED_ALL_ATOM=None
+CATEGORY_FEED_ATOM=None
+TRANSLATION_FEED_ATOM=None
+AUTHOR_FEED_ATOM=None
+AUTHOR_FEED_RSS=None
+MARKDOWN={'extensions':['markdown.extensions.extra','markdown.extensions.codehilite'], 'output_format':'html5'}
