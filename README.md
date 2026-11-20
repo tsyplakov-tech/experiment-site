@@ -1,5 +1,22 @@
 # Experiment site
 
+## Результаты исследования и GitHub Pages
+
+В `docs/` опубликованы сравнительная матрица четырёх генераторов, результаты стресс-теста, скриншоты и рабочая тестовая страница. Синхронизация результатов из `research/`: `python scripts/publish_research_docs.py`. Генерация графиков и повторные измерения при обычной сборке сайта не нужны.
+
+Локальный просмотр:
+
+```sh
+uv sync --frozen --no-dev --no-install-project
+uv run --no-sync mkdocs serve
+```
+
+Workflow `.github/workflows/pages.yml` собирает сайт командой `mkdocs build --strict` на GitHub-hosted runner. Pull request проверяет сборку; push в основную ветку (`master` или `main`) и ручной запуск из основной ветки публикуют артефакт `site/` на Pages. Публикация из pull request отключена.
+
+Один раз выберите **Settings → Pages → Build and deployment → Source: GitHub Actions** в репозитории. Затем отправьте изменения в основную ветку. Ожидаемый адрес: https://tsyplakov-tech.github.io/experiment-site/. Фактическая публикация подтверждается успешным заданием `deploy` в Actions; добавление workflow само по себе ещё не публикует сайт.
+
+Действующий workflow Docker-деплоя сохранён отдельно; GitHub Pages не требует self-hosted runner или Docker. Оба способа используют MkDocs Material.
+
 Сайт на MkDocs Material. Docker собирает статические страницы и раздаёт их через nginx.
 
 ## Локальный запуск

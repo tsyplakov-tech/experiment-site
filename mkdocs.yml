@@ -1,9 +1,11 @@
 site_name: Станислав Цыплаков
+site_url: https://tsyplakov-tech.github.io/experiment-site/
 repo_url: https://github.com/tsyplakov-tech/experiment-site
 repo_name: tsyplakov-tech/experiment-site
 theme:
   name: material
-  locale: ru
+  language: ru
+  font: false
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -13,3 +15,26 @@ theme:
     - scheme: slate
       toggle:
         icon: material/weather-sunny
+
+nav:
+  - Главная: index.md
+  - Сравнение генераторов: research/comparison.md
+  - Стресс-тест:
+      - Результаты и скриншоты: research/measurements.md
+      - Тестовая страница: research/stress.md
+  - Воспроизведение: research/reproduction.md
+
+plugins:
+  - search:
+      lang: [ru]
+
+markdown_extensions:
+  - footnotes
+  - md_in_html
+  - tables
+
+extra_css:
+  - assets/experiment/experiment.css
+extra_javascript:
+  - assets/experiment/math-config.js
+  - assets/experiment/mathjax/tex-mml-chtml.js

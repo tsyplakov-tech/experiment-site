@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Публикация результатов экспериментов
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Сравнение генераторов статических сайтов и практическая проверка научного контента.
 
-## Commands
+## T1. Сравнительный анализ
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[Матрица критериев для MkDocs Material, Sphinx + MyST, Pelican и Quarto](research/comparison.md) охватывает научную разметку, шаблоны, поиск, воспроизводимость и эксплуатацию. В отчёте приведены веса критериев и условия, при которых меняется выбор генератора.
 
-## Project layout
+## P2. Стресс-тест
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Одна страница собрана тремя генераторами по общим данным. Проверены формула со ссылкой, объединённые ячейки таблицы, matplotlib и Plotly, листинг с номерами строк, библиография, две колонки, сноска и ссылка на раздел.
+
+- [Измерения, Lighthouse и скриншоты](research/measurements.md).
+- [Рабочая тестовая страница на MkDocs](research/stress.md).
+- [Протокол, исходные данные и воспроизведение](research/reproduction.md).
+
+## Основной вывод
+
+Для исполняемого научного отчёта предпочтителен **Quarto**, а для версионируемой документации Python API — **Sphinx + MyST**. Это функциональная оценка: практические замеры выполнены для MkDocs, Sphinx и Pelican. Результаты замеров и ограничения приведены отдельно.

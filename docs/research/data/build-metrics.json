@@ -1,0 +1,64 @@
+{
+  "mkdocs": {
+    "cold": [
+      12.1905,
+      1.5454,
+      1.6306
+    ],
+    "incremental": [
+      1.6917,
+      1.992,
+      1.7679
+    ],
+    "cold_median": 1.6306,
+    "incremental_median": 1.7679,
+    "html_bytes": 23330,
+    "site_bytes": 31511455
+  },
+  "sphinx": {
+    "cold": [
+      4.8283,
+      3.0923,
+      4.4819
+    ],
+    "incremental": [
+      21.2168,
+      13.1758,
+      11.9498
+    ],
+    "cold_median": 4.4819,
+    "incremental_median": 13.1758,
+    "html_bytes": 15461,
+    "site_bytes": 29235075
+  },
+  "pelican": {
+    "cold": [
+      8.2319,
+      1.6143,
+      1.4496
+    ],
+    "incremental": [
+      1.3255,
+      1.7021,
+      1.4694
+    ],
+    "cold_median": 1.6143,
+    "incremental_median": 1.4694,
+    "html_bytes": 11387,
+    "site_bytes": 28982201
+  },
+  "_environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.12 (main, Oct 31 2025, 23:00:21) [MSC v.1944 64 bit (AMD64)]",
+    "versions": {
+      "mkdocs": "1.6.1",
+      "mkdocs-material": "9.8.2",
+      "sphinx": "9.1.1",
+      "myst-parser": "5.2.0",
+      "pelican": "4.10.2",
+      "plotly": "7.1.0",
+      "matplotlib": "3.11.2"
+    },
+    "method": "clean output, warm OS/package cache; incremental edits one page, fresh CLI process; excludes prepare_research.py"
+  }
+}
