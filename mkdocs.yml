@@ -19,6 +19,7 @@ theme:
 nav:
   - Главная: index.md
   - Сравнение генераторов: research/comparison.md
+  - Выбор агентной платформы: research/agent-platform.md
   - Стресс-тест:
       - Результаты и скриншоты: research/measurements.md
       - Тестовая страница: research/stress.md
